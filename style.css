@@ -1,38 +1,67 @@
 .hero {
     display: flex;
     background-color: #1F2937;
-
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .header-logo {
     color: #F9FAF8;
     display: flex;
+    font-size: 24px;
 }
 
 .header-links {
     display: flex;
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 16px;
+    color: #c5c8cf;
+    justify-content: end;
     
+}
+
+.hero-container {
+    display: flex;
+    margin: 80px;
+    max-height: 0%;
+    gap: 10px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 
 .hero-sub {
-    color: #E5E7EB;
+    color: #c5c8cf;
     font-size: 18px;
+}
+
+.hero-image {
+    color: #c5c8cf;
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    min-width: 400px
+    
 }
 
 .modal {
@@ -45,4 +74,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
