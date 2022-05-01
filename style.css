@@ -77,23 +77,20 @@
     margin-top: 10px;
 }
 
-.information {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .info-header {
     font-size: 32px;
     font-weight: bolder;
     color: #1F2937;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.info-container {
+.information {
     display: flex;
     gap: 40px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -102,12 +99,15 @@
     border-radius: 10px;
     border-color: #3882F6;
     border-width: 3px;
-    width: 130px;
-    height: 130px;
+    max-width: 130px;
+    min-height: 130px;
 
 
 }
 
 .box-text {
-    
+    max-width: 130px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
 }
