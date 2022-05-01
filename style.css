@@ -111,3 +111,26 @@
     margin-top: 5px;
     margin-bottom: 60px;
 }
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-top: 90px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.thor {
+    font-weight: bold;
+    margin-right: 150px;
+    font-size: large;
+    margin-bottom: 70px;
+}
